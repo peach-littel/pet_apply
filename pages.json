@@ -1,0 +1,598 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#FFF9EF"
+			}
+		},
+		{
+			"path": "pages/adopt/adopt",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#FFF9EF"
+			}
+		},
+		{
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F2F1EE"
+			}
+		},
+		{
+			"path": "pages/adopt-detail/adopt-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F2F1EE"
+			}
+		},
+		{
+			"path": "pages/goods-detail/goods-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/adopt-apply/adopt-apply",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#FFF9EF"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/newbie/newbie",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F4F0"
+		  }
+		},
+		{
+			"path": "pages/category-goods/category-goods",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F4F0"
+		  }
+		},
+		{
+			"path": "pages/newbie/checklist/checklist",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/medical/medical",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/consult",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/allpackages/allpackages",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/guides/guides",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/guide-detail/guide-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/hot/hot",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/faq/faq",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/cat-doctor/cat-doctor",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/dog-doctor/dog-doctor",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/nutritionist/nutritionist",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/behavior-trainer/behavior-trainer",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/cat-doctor/disease/disease",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/cat-doctor/vaccine/vaccine",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/cat-doctor/health-check/health-check",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/cat-doctor/emergency/emergency",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/cat-doctor/disease/detail/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/chat/chat",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/articles/articles",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/dog-doctor/disease/disease",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/dog-doctor/vaccine/vaccine",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/dog-doctor/health-check/health-check",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/dog-doctor/emergency/emergency",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/dog-doctor/disease/detail/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/nutritionist/diet-guide/diet-guide",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/nutritionist/nutrition-ratio/nutrition-ratio",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/nutritionist/supplement/supplement",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/nutritionist/weight-management/weight-management",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/behavior-trainer/basic-commands/basic-commands",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/behavior-trainer/potty-training/potty-training",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/behavior-trainer/behavior-correction/behavior-correction",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/consult/behavior-trainer/advanced-training/advanced-training",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/medical/vaccine-guide/vaccine-guide",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/medical/deworm-plan/deworm-plan",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/medical/checkup-items/checkup-items",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/medical/emergency-treatment/emergency-treatment",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/medical/oral-care/oral-care",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/medical/sterilization-guide/sterilization-guide",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/newbie/package-detail/package-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/checkout/checkout",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/pay-success/pay-success",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F9F7F4"
+			}
+		},
+		{
+			"path": "pages/message/system-notice/system-notice",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/message/adopt-dynamic/adopt-dynamic",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/message/order-message/order-message",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/message/customer-service/customer-service",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/message/chat/chat",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/setting/setting",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/my-adopt/my-adopt",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/my-adopt/my-adopt-detail/my-adopt-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/my-favorite/my-favorite",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/my-orders/my-orders",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/my-orders/order-detail/order-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/my-orders/order-comment/order-comment",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/my-orders/order-refund/order-refund",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/pay/pay",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/refund/refund",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/points-center/points-center",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/address/address",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/coupon/coupon",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/help-center/help-center",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/help-center/help-detail/help-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/about/about",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/setting/profile/profile",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/setting/notification/notification",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/setting/privacy/privacy",
+			"style": {
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F5F5"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "宠物领养",
+		"navigationBarBackgroundColor": "#FFF9EF",
+		"backgroundColor": "#FFF9EF"
+	},
+	"tabBar": {
+	"color": "#999999",
+	"selectedColor": "#0c9a7b",
+	"backgroundColor": "#FFFFFF",
+	"borderStyle": "white",
+	"list": [
+		{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "/pages/static/tab/home.png",
+			"selectedIconPath": "/pages/static/tab/home-active.png"
+		},
+		{
+			"pagePath": "pages/adopt/adopt",
+			"text": "领养",
+			"iconPath": "/pages/static/tab/adopt.png",
+			"selectedIconPath": "/pages/static/tab/adopt-active.png"
+		},
+		{
+			"pagePath": "pages/mall/mall",
+			"text": "商城",
+			"iconPath": "/pages/static/tab/mall.png",
+			"selectedIconPath": "/pages/static/tab/mall-active.png"
+		},
+		{
+			"pagePath": "pages/message/message",
+			"text": "消息",
+			"iconPath": "/pages/static/tab/chat.png",
+			"selectedIconPath": "/pages/static/tab/chat-active.png"
+		},
+		{
+			"pagePath": "pages/mine/mine",
+			"text": "我的",
+			"iconPath": "/pages/static/tab/user.png",
+			"selectedIconPath": "/pages/static/tab/user-active.png"
+		}
+	],
+	"midButton": {
+		"width": "110rpx",
+		"height": "110rpx",
+		"iconPath": "/pages/static/tab/add.svg",
+		"iconWidth": "50rpx",
+		"pagePath": "pages/mall/mall",
+		"text": "商城",
+		"background": "linear-gradient(135deg, #0c9a7b, #0a7d64)",
+		"iconColor": "#FFFFFF"
+	}
+},
+"lazyCodeLoading": "requiredComponents"
+}
