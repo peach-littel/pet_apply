@@ -3,6 +3,14 @@
   <head>
     <link rel="stylesheet" href="/assets/uni.4f20c3e3.css">
 
+    <!-- 解决线上 process is not defined 报错，放在最前面 -->
+    <script>
+window.process = {
+  env: {
+    NODE_ENV: "production"
+  }
+}
+    </script>
     <meta charset="UTF-8" />
     <script>
       var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
