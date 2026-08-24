@@ -33,7 +33,7 @@ const saveToStorage = (key, data) => {
 
 // ========== 用户信息 ==========
 const userInfo = ref(loadFromStorage(STORAGE_KEYS.USER_INFO, {
-  avatar: '/pages/static/image/user.png',
+  avatar: '/static/image/user.png',
   nickname: '铲屎官小雅',
   gender: '女',
   phone: '138****8888',
@@ -220,7 +220,7 @@ const enhanceSpecs = (specs, basePrice, baseOriginPrice, baseStock) => {
   })
 }
 
-// ========== 商品数据（使用本地图片 - 路径为 pages/static/image/） ==========
+// ========== 商品数据（使用本地图片 - 路径为 static/image/） ==========
 const rawGoodsData = [
   {
     id: 1,
@@ -231,24 +231,24 @@ const rawGoodsData = [
     originPrice: 58,
     sales: 2341,
     badge: '热销',
-    image: '/pages/static/image/dog.png',
+    image: '/static/image/dog.png',
     specs: ['50g 尝鲜装', '150g 标准装', '300g 家庭装'],
     images: [
-      '/pages/static/image/dog.png',
-      '/pages/static/image/food2.png',
-      '/pages/static/image/food3.png'
+      '/static/image/dog.png',
+      '/static/image/food2.png',
+      '/static/image/food3.png'
     ],
     detailImages: [
-      '/pages/static/image/food4.png',
-      '/pages/static/image/food5.png'
+      '/static/image/food4.png',
+      '/static/image/food5.png'
     ],
     rating: 4.8,
     reviewCount: 156,
     stock: 200,
     reviews: [
-      { userName: '爱宠小咪', rating: 5, time: '2024-12-15', content: '猫咪超爱吃，冻干很酥脆，闻着就是纯肉香，没有添加剂的味道，已经回购三次了！', images: ['/pages/static/image/food6.png'] },
+      { userName: '爱宠小咪', rating: 5, time: '2024-12-15', content: '猫咪超爱吃，冻干很酥脆，闻着就是纯肉香，没有添加剂的味道，已经回购三次了！', images: ['/static/image/food6.png'] },
       { userName: '汪星人家长', rating: 4, time: '2024-12-12', content: '狗狗很喜欢吃，就是价格有点小贵，但品质确实不错，会继续回购。', images: [] },
-      { userName: '铲屎官小刘', rating: 5, time: '2024-12-10', content: '我家两只猫都抢着吃，适口性真的绝了！而且配料表很干净，非常放心。', images: ['/pages/static/image/food7.png'] }
+      { userName: '铲屎官小刘', rating: 5, time: '2024-12-10', content: '我家两只猫都抢着吃，适口性真的绝了！而且配料表很干净，非常放心。', images: ['/static/image/food7.png'] }
     ]
   },
   {
@@ -260,15 +260,15 @@ const rawGoodsData = [
     originPrice: 68,
     sales: 1856,
     badge: '',
-    image: '/pages/static/image/catfood.png',
+    image: '/static/image/catfood.png',
     specs: ['400g 装', '1.5kg 装', '3kg 装'],
     images: [
-      '/pages/static/image/catfood.png',
-      '/pages/static/image/catfood2.png',
-      '/pages/static/image/catfood3.png'
+      '/static/image/catfood.png',
+      '/static/image/catfood2.png',
+      '/static/image/catfood3.png'
     ],
     detailImages: [
-      '/pages/static/image/catfood4.png'
+      '/static/image/catfood4.png'
     ],
     rating: 4.5,
     reviewCount: 89,
@@ -287,14 +287,14 @@ const rawGoodsData = [
     originPrice: 35,
     sales: 723,
     badge: '新品',
-    image: '/pages/static/image/bath1.png',
+    image: '/static/image/bath1.png',
     specs: ['200ml', '500ml'],
     images: [
-      '/pages/static/image/bath1.png',
-      '/pages/static/image/bath2.png'
+      '/static/image/bath1.png',
+      '/static/image/bath2.png'
     ],
     detailImages: [
-      '/pages/static/image/bath3.png'
+      '/static/image/bath3.png'
     ],
     rating: 4.2,
     reviewCount: 45,
@@ -312,14 +312,14 @@ const rawGoodsData = [
     originPrice: 129,
     sales: 456,
     badge: '',
-    image: '/pages/static/image/catbed1.png',
+    image: '/static/image/catbed1.png',
     specs: ['S', 'M', 'L'],
     images: [
-      '/pages/static/image/catbed1.png',
-      '/pages/static/image/catbed2.png'
+      '/static/image/catbed1.png',
+      '/static/image/catbed2.png'
     ],
     detailImages: [
-      '/pages/static/image/catbed3.png'
+      '/static/image/catbed3.png'
     ],
     rating: 4.6,
     reviewCount: 67,
@@ -337,21 +337,21 @@ const rawGoodsData = [
     originPrice: 42,
     sales: 3120,
     badge: '爆款',
-    image: '/pages/static/image/chicken1.png',
+    image: '/static/image/chicken1.png',
     specs: ['100g', '200g', '500g'],
     images: [
-      '/pages/static/image/chicken1.png',
-      '/pages/static/image/chicken2.png'
+      '/static/image/chicken1.png',
+      '/static/image/chicken2.png'
     ],
     detailImages: [
-      '/pages/static/image/chicken3.png',
-      '/pages/static/image/chicken4.png'
+      '/static/image/chicken3.png',
+      '/static/image/chicken4.png'
     ],
     rating: 4.9,
     reviewCount: 234,
     stock: 500,
     reviews: [
-      { userName: '二哈家长', rating: 5, time: '2024-12-09', content: '狗狗超级爱吃，训练时用的奖励，效果很好！', images: ['/pages/static/image/chicken5.png'] }
+      { userName: '二哈家长', rating: 5, time: '2024-12-09', content: '狗狗超级爱吃，训练时用的奖励，效果很好！', images: ['/static/image/chicken5.png'] }
     ]
   },
   {
@@ -363,20 +363,20 @@ const rawGoodsData = [
     originPrice: 78,
     sales: 932,
     badge: '',
-    image: '/pages/static/image/fish1.png',
+    image: '/static/image/fish1.png',
     specs: ['1kg', '3kg', '5kg'],
     images: [
-      '/pages/static/image/fish1.png',
-      '/pages/static/image/fish2.png'
+      '/static/image/fish1.png',
+      '/static/image/fish2.png'
     ],
     detailImages: [
-      '/pages/static/image/fish3.png'
+      '/static/image/fish3.png'
     ],
     rating: 4.3,
     reviewCount: 78,
     stock: 120,
     reviews: [
-      { userName: '布偶妈妈', rating: 4, time: '2024-12-08', content: '三文鱼含量高，猫咪爱吃，毛发有明显改善。', images: ['/pages/static/image/fish4.png'] }
+      { userName: '布偶妈妈', rating: 4, time: '2024-12-08', content: '三文鱼含量高，猫咪爱吃，毛发有明显改善。', images: ['/static/image/fish4.png'] }
     ]
   },
   {
@@ -388,14 +388,14 @@ const rawGoodsData = [
     originPrice: 45,
     sales: 567,
     badge: '热销',
-    image: '/pages/static/image/tool1.png',
+    image: '/static/image/tool1.png',
     specs: ['标准款', '豪华款'],
     images: [
-      '/pages/static/image/tool1.png',
-      '/pages/static/image/tool2.png'
+      '/static/image/tool1.png',
+      '/static/image/tool2.png'
     ],
     detailImages: [
-      '/pages/static/image/tool3.png'
+      '/static/image/tool3.png'
     ],
     rating: 4.4,
     reviewCount: 56,
@@ -413,21 +413,21 @@ const rawGoodsData = [
     originPrice: 299,
     sales: 234,
     badge: '',
-    image: '/pages/static/image/tree1.png',
+    image: '/static/image/tree1.png',
     specs: ['基础款', '豪华款', '旗舰款'],
     images: [
-      '/pages/static/image/tree1.png',
-      '/pages/static/image/tree2.png'
+      '/static/image/tree1.png',
+      '/static/image/tree2.png'
     ],
     detailImages: [
-      '/pages/static/image/tree3.png',
-      '/pages/static/image/tree4.png'
+      '/static/image/tree3.png',
+      '/static/image/tree4.png'
     ],
     rating: 4.7,
     reviewCount: 34,
     stock: 50,
     reviews: [
-      { userName: '多猫家庭', rating: 5, time: '2024-12-06', content: '质量很好，三只猫都爱爬，特别结实稳定。', images: ['/pages/static/image/tree5.png'] }
+      { userName: '多猫家庭', rating: 5, time: '2024-12-06', content: '质量很好，三只猫都爱爬，特别结实稳定。', images: ['/static/image/tree5.png'] }
     ]
   },
   {
@@ -439,21 +439,21 @@ const rawGoodsData = [
     originPrice: 25,
     sales: 4567,
     badge: '爆款',
-    image: '/pages/static/image/bone1.png',
+    image: '/static/image/bone1.png',
     specs: ['小号', '中号', '大号'],
     images: [
-      '/pages/static/image/bone1.png',
-      '/pages/static/image/bone2.png'
+      '/static/image/bone1.png',
+      '/static/image/bone2.png'
     ],
     detailImages: [
-      '/pages/static/image/bone3.png',
-      '/pages/static/image/bone4.png'
+      '/static/image/bone3.png',
+      '/static/image/bone4.png'
     ],
     rating: 4.5,
     reviewCount: 345,
     stock: 800,
     reviews: [
-      { userName: '金毛多多', rating: 5, time: '2024-12-05', content: '磨牙效果很好，狗狗爱啃，一根能啃好久。', images: ['/pages/static/image/bone5.png'] }
+      { userName: '金毛多多', rating: 5, time: '2024-12-05', content: '磨牙效果很好，狗狗爱啃，一根能啃好久。', images: ['/static/image/bone5.png'] }
     ]
   }
 ]

@@ -186,17 +186,17 @@ const currentPackage = ref(0)
 // ---- Banner数据 ----
 const bannerList = ref([
 	{
-		image: '/pages/static/image/pet.png',
+		image: '/static/image/pet.png',
 		title: '🐾 新手养宠一站式解决方案',
 		sub: '从零开始，轻松成为合格铲屎官'
 	},
 	{
-		image: '/pages/static/image/pet6.png',
+		image: '/static/image/pet6.png',
 		title: '🎁 精选入门套餐限时优惠',
 		sub: '基础用品一次配齐，省心省力'
 	},
 	{
-		image: '/pages/static/image/pet8.png',
+		image: '/static/image/pet8.png',
 		title: '📚 养宠知识百科全书',
 		sub: '科学养宠，让爱宠健康成长'
 	}
@@ -275,28 +275,28 @@ const hotList = ref([
 		name: '鸭肉冻干狗粮',
 		price: 32,
 		sales: 2341,
-		image: '/pages/static/image/food2.png'
+		image: '/static/image/food2.png'
 	},
 	{
 		id: 2,
 		name: '罐装三文鱼猫粮',
 		price: 48,
 		sales: 1856,
-		image: '/pages/static/image/catfood2.png'
+		image: '/static/image/catfood2.png'
 	},
 	{
 		id: 3,
 		name: '宠物梳子套装',
 		price: 39,
 		sales: 723,
-		image: '/pages/static/image/tool3.png'
+		image: '/static/image/tool3.png'
 	},
 	{
 		id: 4,
 		name: '加长版猫窝',
 		price: 89,
 		sales: 456,
-		image: '/pages/static/image/catbed3.png'
+		image: '/static/image/catbed3.png'
 	}
 ])
 

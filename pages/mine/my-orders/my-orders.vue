@@ -7,14 +7,14 @@
 			</view>
 			<text class="nav-title">我的订单</text>
 			<view class="nav-right" @click="toggleSearch">
-				<image class="search-icon" src="/pages/static/tab/search.png"></image>
+				<image class="search-icon" src="/static/tab/search.png"></image>
 			</view>
 		</view>
 
 		<!-- 搜索栏 -->
 		<view class="search-bar" v-if="showSearch">
 			<view class="search-input-wrap">
-				<image class="search-icon-small" src="/pages/static/tab/search.png"></image>
+				<image class="search-icon-small" src="/static/tab/search.png"></image>
 				<input 
 					class="search-input" 
 					v-model="searchKeyword" 

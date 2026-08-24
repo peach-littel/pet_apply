@@ -95,7 +95,7 @@
 
 	//  用户信息（从全局读取） 
 	const userInfo = ref({
-		avatar: '/pages/static/image/user.png',
+		avatar: '/static/image/user.png',
 		nickname: '铲屎官小雅'
 	})
 

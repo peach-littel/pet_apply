@@ -6,12 +6,12 @@
 				<text class="greeting-title">早安，小主</text>
 				<text class="greeting-sub">今天也值得被温柔陪伴哦</text>
 			</view>
-			<image class="avatar" src="/pages/static/image/user.png" mode="aspectFill" />
+			<image class="avatar" src="/static/image/user.png" mode="aspectFill" />
 		</view>
 		<!-- 搜索框 -->
 		<view class="search-box">
 			<view class="search-inner">
-				<image class="search-icon" src="/pages/static/tab/search.png"></image>
+				<image class="search-icon" src="/static/tab/search.png"></image>
 				<input class="search-input" placeholder="搜索猫咪、狗狗、零食、玩具" placeholder-class="search-placeholder" />
 			</view>
 		</view>
@@ -27,7 +27,7 @@
 		>
 			<swiper-item>
 				<view class="banner-card">
-					<image class="banner-img" src="/pages/static/image/pet.png" mode="aspectFill" />
+					<image class="banner-img" src="/static/image/pet.png" mode="aspectFill" />
 					<view class="banner-content">
 						<!-- 顶部文字局部遮罩层，只保护标题文字，不影响图片主体 -->
 						<view class="banner-top-mask"></view>
@@ -50,7 +50,7 @@
 			</swiper-item>
 			<swiper-item>
 				<view class="banner-card">
-					<image class="banner-img" src="/pages/static/image/petall.png" mode="aspectFill" />
+					<image class="banner-img" src="/static/image/petall.png" mode="aspectFill" />
 					<view class="banner-content">
 						<view class="banner-top-mask"></view>
 						<view class="banner-text">
@@ -93,7 +93,7 @@ const petList = ref([
 		name: '豆豆',
 		breed: '橘猫',
 		age: '2岁',
-		avatar: '/pages/static/image/pet5.png',
+		avatar: '/static/image/pet5.png',
 		tags: ['活泼', '黏人'],
 		character: ['活泼', '黏人'],
 		tips: [
@@ -109,7 +109,7 @@ const petList = ref([
 		name: '珂珂',
 		breed: '柯基',
 		age: '2岁半',
-		avatar: '/pages/static/image/pet7.png',
+		avatar: '/static/image/pet7.png',
 		tags: ['温顺', '聪明'],
 		character: ['温顺', '聪明'],
 		tips: [
@@ -125,7 +125,7 @@ const petList = ref([
 		name: '布丁',
 		breed: '奶牛猫',
 		age: '2岁',
-		avatar: '/pages/static/image/pet1.png',
+		avatar: '/static/image/pet1.png',
 		tags: ['安静', '亲人'],
 		character: ['安静', '亲人'],
 		tips: [
@@ -141,7 +141,7 @@ const petList = ref([
 		name: '可乐',
 		breed: '金毛',
 		age: '3岁',
-		avatar: '/pages/static/image/pet3.png',
+		avatar: '/static/image/pet3.png',
 		tags: ['活泼', '爱笑'],
 		character: ['活泼', '爱笑'],
 		tips: [
@@ -157,7 +157,7 @@ const petList = ref([
 		name: '奶茶',
 		breed: '布偶猫',
 		age: '1岁',
-		avatar:  '/pages/static/image/pet6.png',
+		avatar:  '/static/image/pet6.png',
 		tags: ['温柔', '黏人'],
 		character: ['温柔', '黏人'],
 		tips: [
@@ -173,7 +173,7 @@ const petList = ref([
 		name: '豆包',
 		breed: '萨摩耶',
 		age: '1岁半',
-		avatar: '/pages/static/image/pet8.png',
+		avatar: '/static/image/pet8.png',
 		tags: ['开朗', '友善'],
 		character: ['开朗', '友善'],
 		tips: [

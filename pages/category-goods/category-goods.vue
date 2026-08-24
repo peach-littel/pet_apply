@@ -7,14 +7,14 @@
 			</view>
 			<text class="nav-title">{{ categoryName }}</text>
 			<view class="nav-right" @click="showSearch">
-				<image class="search-icon" src="/pages/static/tab/search.png"></image>
+				<image class="search-icon" src="/static/tab/search.png"></image>
 			</view>
 		</view>
 
 		<!-- 搜索栏 -->
 		<view class="search-bar-wrap" v-if="searchVisible">
 			<view class="search-bar">
-				<image class="search-icon" src="/pages/static/tab/search.png"></image>
+				<image class="search-icon" src="/static/tab/search.png"></image>
 				<input 
 					class="search-input" 
 					v-model="searchKeyword" 
@@ -169,7 +169,7 @@ const allGoods = ref([
 		category: '主粮',
 		desc: '新鲜鸭肉制作，无任何添加剂，放心给毛孩子食用...',
 		price: 32,
-		image: '/pages/static/image/food2.png',
+		image: '/static/image/food2.png',
 		specs: ['50g 尝鲜装', '150g 标准装', '300g 家庭装'],
 		sales: 2341,
 		badge: '热销'
@@ -180,7 +180,7 @@ const allGoods = ref([
 		category: '主粮',
 		desc: '新鲜三文鱼制作，无任何添加剂，放心给毛孩子食用...',
 		price: 48,
-		image:  '/pages/static/image/catfood2.png',
+		image:  '/static/image/catfood2.png',
 		specs: ['400g 装', '1.5kg 装', '3kg 装'],
 		sales: 1856,
 		badge: ''
@@ -191,7 +191,7 @@ const allGoods = ref([
 		category: '清洁',
 		desc: '天然植物制作，无任何添加剂，放心给毛孩子使用...',
 		price: 25,
-		image: '/pages/static/image/bath3.png',
+		image: '/static/image/bath3.png',
 		specs: ['200ml', '500ml'],
 		sales: 723,
 		badge: '新品'
@@ -202,7 +202,7 @@ const allGoods = ref([
 		category: '窝具',
 		desc: '新疆棉花手工制作，无任何有害物质，放心给毛孩子使用...',
 		price: 89,
-		image: '/pages/static/image/catbed2.png',
+		image: '/static/image/catbed2.png',
 		specs: ['S', 'M', 'L'],
 		sales: 456,
 		badge: ''
@@ -213,7 +213,7 @@ const allGoods = ref([
 		category: '零食',
 		desc: '优质鸡胸肉冻干，营养丰富，适口性极佳',
 		price: 28,
-		image: '/pages/static/image/chicken4.png',
+		image: '/static/image/chicken4.png',
 		specs: ['100g', '200g', '500g'],
 		sales: 3120,
 		badge: ''
@@ -224,7 +224,7 @@ const allGoods = ref([
 		category: '主粮',
 		desc: '多种深海鱼混合，补充Omega‑3，呵护皮毛',
 		price: 56,
-		image: '/pages/static/image/fish3.png',
+		image: '/static/image/fish3.png',
 		specs: ['1kg', '3kg', '5kg'],
 		sales: 932,
 		badge: '新品'
@@ -235,7 +235,7 @@ const allGoods = ref([
 		category: '护理',
 		desc: '静音设计，安全防滑，新手也能轻松操作',
 		price: 35,
-		image: '/pages/static/image/tool1.png',
+		image: '/static/image/tool1.png',
 		specs: ['标准款', '豪华款'],
 		sales: 567,
 		badge: '热销'

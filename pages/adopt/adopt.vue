@@ -7,7 +7,7 @@
 				<text class="arrow">▼</text>
 			</view>
 			<view class="search-btn" @click="handleSearch">
-				<image class="search-icon" src="/pages/static/tab/search.png"></image>
+				<image class="search-icon" src="/static/tab/search.png"></image>
 			</view>
 		</view>
 
@@ -101,7 +101,7 @@ const petList = ref([
 		age: '2岁',
 		character: ['聪明', '安静', '黏人'],
 		location: '南京',
-		avatar: '/pages/static/image/pet1.png',
+		avatar: '/static/image/pet1.png',
 		star: 35,
 		comment: 146,
 		isLiked: false,
@@ -121,7 +121,7 @@ const petList = ref([
 		age: '2岁半',
 		character: ['黏人', '好动', '亲人'],
 		location: '苏州',
-		avatar: '/pages/static/image/pet2.png',
+		avatar: '/static/image/pet2.png',
 		star: 35,
 		comment: 196,
 		isLiked: true,
@@ -141,7 +141,7 @@ const petList = ref([
 		age: '3岁',
 		character: ['聪明', '调皮', '活泼'],
 		location: '长沙',
-		avatar: '/pages/static/image/pet3.png',
+		avatar: '/static/image/pet3.png',
 		star: 21,
 		comment: 1146,
 		isLiked: false,
@@ -161,7 +161,7 @@ const petList = ref([
 		age: '1岁半',
 		character: ['内敛', '安静', '忠诚'],
 		location: '北京',
-		avatar: '/pages/static/image/pet4.png',
+		avatar: '/static/image/pet4.png',
 		star: 90,
 		comment: 45,
 		isLiked: false,

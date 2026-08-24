@@ -6,13 +6,13 @@
 				<view class="header-placeholder"></view>
 				<text class="page-title">宠物好物精选</text>
 				<view class="header-right" @click="goMessage">
-					<image class="msg-icon" src="/pages/static/tab/message.png"></image>
+					<image class="msg-icon" src="/static/tab/message.png"></image>
 					<view class="msg-dot" v-if="hasNewMsg"></view>
 				</view>
 			</view>
 			<view class="search-wrap">
 				<view class="search-box">
-					<image class="search-icon" src="/pages/static/tab/search.png"></image>
+					<image class="search-icon" src="/static/tab/search.png"></image>
 					<input 
 						class="search-input" 
 						placeholder="搜索猫粮、狗粮、玩具、猫砂" 
@@ -56,7 +56,7 @@
 					<image class="goods-img" :src="item.image" mode="aspectFill" />
 					<view class="goods-tag">{{ item.category }}</view>
 					<view class="more-btn" @click.stop="handleMore(item)">
-						<image class="more" src="/pages/static/tab/more.png"></image>
+						<image class="more" src="/static/tab/more.png"></image>
 					</view>
 				</view>
 				<view class="goods-info">

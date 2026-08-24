@@ -9,7 +9,7 @@
 		<!-- 搜索框 -->
 		<view class="search-box">
 			<view class="search-input-wrap">
-				<image class="search-icon" src="/pages/static/tab/search.png"></image>
+				<image class="search-icon" src="/static/tab/search.png"></image>
 				<input 
 					class="search-input" 
 					v-model="searchKeyword" 

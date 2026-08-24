@@ -555,38 +555,38 @@
 		{
 			"pagePath": "pages/index/index",
 			"text": "首页",
-			"iconPath": "/pages/static/tab/home.png",
-			"selectedIconPath": "/pages/static/tab/home-active.png"
+			"iconPath": "/static/tab/home.png",
+			"selectedIconPath": "/static/tab/home-active.png"
 		},
 		{
 			"pagePath": "pages/adopt/adopt",
 			"text": "领养",
-			"iconPath": "/pages/static/tab/adopt.png",
-			"selectedIconPath": "/pages/static/tab/adopt-active.png"
+			"iconPath": "/static/tab/adopt.png",
+			"selectedIconPath": "/static/tab/adopt-active.png"
 		},
 		{
 			"pagePath": "pages/mall/mall",
 			"text": "商城",
-			"iconPath": "/pages/static/tab/mall.png",
-			"selectedIconPath": "/pages/static/tab/mall-active.png"
+			"iconPath": "/static/tab/mall.png",
+			"selectedIconPath": "/static/tab/mall-active.png"
 		},
 		{
 			"pagePath": "pages/message/message",
 			"text": "消息",
-			"iconPath": "/pages/static/tab/chat.png",
-			"selectedIconPath": "/pages/static/tab/chat-active.png"
+			"iconPath": "/static/tab/chat.png",
+			"selectedIconPath": "/static/tab/chat-active.png"
 		},
 		{
 			"pagePath": "pages/mine/mine",
 			"text": "我的",
-			"iconPath": "/pages/static/tab/user.png",
-			"selectedIconPath": "/pages/static/tab/user-active.png"
+			"iconPath": "/static/tab/user.png",
+			"selectedIconPath": "/static/tab/user-active.png"
 		}
 	],
 	"midButton": {
 		"width": "110rpx",
 		"height": "110rpx",
-		"iconPath": "/pages/static/tab/add.svg",
+		"iconPath": "/static/tab/add.svg",
 		"iconWidth": "50rpx",
 		"pagePath": "pages/mall/mall",
 		"text": "商城",
